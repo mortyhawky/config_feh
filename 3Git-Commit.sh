@@ -1,13 +1,13 @@
 #!/usr/bin/env zsh
 ## Updated: 2026-04-21 13:09 Tue
 
-local SCRIPT_PATH="${(%)-%N}"
-echo "Start: $SCRIPT_PATH"
+local SCRIPT_PATH="${0}"
+echo "\nStart: $SCRIPT_PATH"
 source $ZDOTDIR/alias.zsh
 #all functions in $ZDOTDIR/funcitons.zsh is prefixed with f_
 
 #clear
-echo "command:  git status"
+#echo "command:  git status"
 git status --short
 git add -Av
 git status --short
