@@ -1,2 +1,5 @@
-#!/bin/sh
-feh --no-fehbg --bg-fill '/a/common/wallpapers/komorebi-6000x4000.jpg' 
+#!/usr/bin/env zsh
+# Updated ArchReal 2026
+#feh --no-fehbg --bg-fill '/a/common/wallpapers/komorebi-6000x4000.jpg' 
+
+feh --no-fehbg --bg-fill '/home/m/Wallpapers/komorebi-6000x4000.jpg'
