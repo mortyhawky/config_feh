@@ -12,7 +12,7 @@ echo "command:  git status"
 git status --short
 git add -Av
 git status --short
-l
+#l
 
 #if ! git status --porcelain | grep -q .; then
 #  echo "---> UP TO DATE "

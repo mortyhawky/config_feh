@@ -8,7 +8,7 @@ source $ZDOTDIR/alias.zsh
 
 #clear
 echo "command:  git status"
-l
+#l
 git status --short
 
 

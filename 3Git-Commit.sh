@@ -13,7 +13,7 @@ git add -Av
 git status --short
 git commit -m "$(date)"
 git status --short
-l
+#l
 
 #if ! git status --porcelain | grep -q .; then
 #  echo "---> UP TO DATE "
