@@ -3,17 +3,17 @@
 
 local SCRIPT_PATH="${(%)-%N}"
 echo "Start: $SCRIPT_PATH"
-source $ZDOTDIR/functions.zsh
+source $ZDOTDIR/alias.zsh
 #all functions in $ZDOTDIR/funcitons.zsh is prefixed with f_
 
-clear
+#clear
 echo "command:  git status"
 git status --short
 git add -Av
 git status --short
 git commit -m "$(date)"
 git status --short
-
+l
 
 #if ! git status --porcelain | grep -q .; then
 #  echo "---> UP TO DATE "

@@ -3,11 +3,12 @@
 
 local SCRIPT_PATH="${(%)-%N}"
 echo "Start: $SCRIPT_PATH"
-source $ZDOTDIR/functions.zsh
+source $ZDOTDIR/alias.zsh
 #all functions in $ZDOTDIR/funcitons.zsh is prefixed with f_
 
-clear
+#clear
 echo "command:  git status"
+l
 git status --short
 
 
